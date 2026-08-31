@@ -42,9 +42,9 @@ export const Route = createFileRoute("/")({
           email: "centrodepsicologiarv@gmail.com",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Rua Padre Caramuru, nº 875",
-            addressLocality: "Cambuí",
-            addressRegion: "MG",
+            streetAddress: "Rua Paulino Camasmie, nº 61 — Jardim Paulista",
+            addressLocality: "São Paulo",
+            addressRegion: "SP",
             addressCountry: "BR",
           },
         }),

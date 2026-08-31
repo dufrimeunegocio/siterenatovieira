@@ -16,7 +16,7 @@ import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 const TITLE = "Dr. Renato Vieira — Psicologia Clínica e Neuropsicologia";
 const DESCRIPTION =
-  "Psicologia clínica com 19 anos de experiência e mais de 40 mil atendimentos. Atendimento presencial em Cambuí/MG e São Paulo/SP, e on-line.";
+  "Psicologia clínica com mais de 22 anos de experiência e mais de 40 mil atendimentos. Atendimento presencial em São Paulo/SP e Cambuí/MG, e on-line.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

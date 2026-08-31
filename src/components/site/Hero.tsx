@@ -11,7 +11,7 @@ export function Hero() {
               Psicologia Clínica com experiência, acolhimento e conhecimento especializado
             </h1>
             <p className="mt-6 max-w-lg text-[1.0625rem] leading-relaxed text-primary-foreground/75 sm:text-lg">
-              19 anos de experiência clínica e mais de 40 mil atendimentos realizados, com
+              Mais de 22 anos de experiência clínica e mais de 40 mil atendimentos realizados, com
               atendimento presencial e on-line.
             </p>
             <a

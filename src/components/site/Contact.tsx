@@ -1,5 +1,14 @@
 import { Phone, Mail, Instagram, Navigation, MapPin } from "lucide-react";
-import { ADDRESS, EMAIL, INSTAGRAM, PHONE_LABEL, WHATSAPP_URL } from "@/data/site";
+import {
+  ADDRESS_MG_LINE1,
+  ADDRESS_MG_LINE2,
+  ADDRESS_SP_LINE1,
+  ADDRESS_SP_LINE2,
+  EMAIL,
+  INSTAGRAM,
+  PHONE_LABEL,
+  WHATSAPP_URL,
+} from "@/data/site";
 
 export function Contact() {
   return (

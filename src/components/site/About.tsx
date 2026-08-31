@@ -44,7 +44,7 @@ export function About() {
               e utilização da Terapia Cognitivo-Comportamental (TCC).
             </p>
             <p>
-              São 19 anos de experiência na área clínica psicológica e mais de 40 mil atendimentos
+              São mais de 22 anos de experiência na área clínica psicológica e mais de 40 mil atendimentos
               realizados.
             </p>
           </div>

@@ -3,7 +3,13 @@ export const WHATSAPP_URL =
 export const EMAIL = "centrodepsicologiarv@gmail.com";
 export const INSTAGRAM = "https://www.instagram.com/centrodepsicologiarv/";
 export const PHONE_LABEL = "(35) 99978-2150";
-export const ADDRESS = "Rua Padre Caramuru, nº 875, Cambuí-MG";
+export const ADDRESS_SP_LINE1 = "Rua Paulino Camasmie, nº 61";
+export const ADDRESS_SP_LINE2 = "Jardim Paulista — São Paulo/SP";
+export const ADDRESS_MG_LINE1 = "Rua Vereador Antônio Paulino de Abreu, nº 103";
+export const ADDRESS_MG_LINE2 = "Cambuí — Centro — MG";
+export const ADDRESS_SP = `${ADDRESS_SP_LINE1}, ${ADDRESS_SP_LINE2}`;
+export const ADDRESS_MG = `${ADDRESS_MG_LINE1}, ${ADDRESS_MG_LINE2}`;
+export const ADDRESS = ADDRESS_SP;
 
 export const NAV_LINKS = [
   { label: "Início", href: "#inicio" },
@@ -16,7 +22,7 @@ export const NAV_LINKS = [
 ];
 
 export const STATS = [
-  { value: "19 anos", label: "de experiência clínica" },
+  { value: "+22 anos", label: "de experiência clínica" },
   { value: "+40 mil", label: "atendimentos realizados" },
   { value: "USP", label: "Especialização em Psicopatologia" },
   { value: "TCC", label: "Terapia Cognitivo-Comportamental" },
@@ -60,11 +66,11 @@ export const IDENTIFICATION = [
 export const FAQ = [
   {
     q: "O atendimento é presencial ou on-line?",
-    a: "O atendimento é oferecido nas duas modalidades: presencial, em Cambuí-MG, e on-line, para quem busca acompanhamento à distância.",
+    a: "O atendimento é oferecido nas duas modalidades: presencial, em São Paulo/SP e Cambuí-MG, e on-line, para quem busca acompanhamento à distância.",
   },
   {
     q: "Onde são realizados os atendimentos presenciais?",
-    a: "Os atendimentos presenciais acontecem na Rua Padre Caramuru, nº 875, em Cambuí-MG. O profissional também atua em São Paulo/SP.",
+    a: "Os atendimentos presenciais acontecem na Rua Paulino Camasmie, nº 61, Jardim Paulista — São Paulo/SP, e na Rua Vereador Antônio Paulino de Abreu, nº 103, Cambuí — Centro — MG.",
   },
   {
     q: "O atendimento on-line está disponível para outras cidades?",

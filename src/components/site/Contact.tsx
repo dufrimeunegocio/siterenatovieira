@@ -1,5 +1,14 @@
 import { Phone, Mail, Instagram, Navigation, MapPin } from "lucide-react";
-import { ADDRESS, EMAIL, INSTAGRAM, PHONE_LABEL, WHATSAPP_URL } from "@/data/site";
+import {
+  ADDRESS_MG_LINE1,
+  ADDRESS_MG_LINE2,
+  ADDRESS_SP_LINE1,
+  ADDRESS_SP_LINE2,
+  EMAIL,
+  INSTAGRAM,
+  PHONE_LABEL,
+  WHATSAPP_URL,
+} from "@/data/site";
 
 export function Contact() {
   return (
@@ -80,9 +89,28 @@ export function Contact() {
               </span>
               <span>
                 <span className="block text-[0.68rem] font-semibold tracking-[0.16em] text-foreground/60 uppercase">
-                  Endereço presencial
+                  Endereço presencial — São Paulo
                 </span>
-                <span className="text-base text-primary">{ADDRESS}</span>
+                <span className="text-base text-primary">
+                  {ADDRESS_SP_LINE1}
+                  <br />
+                  {ADDRESS_SP_LINE2}
+                </span>
+              </span>
+            </li>
+            <li className="flex items-center gap-4">
+              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-card">
+                <MapPin className="size-4 text-accent" strokeWidth={1.8} />
+              </span>
+              <span>
+                <span className="block text-[0.68rem] font-semibold tracking-[0.16em] text-foreground/60 uppercase">
+                  Endereço presencial — Cambuí
+                </span>
+                <span className="text-base text-primary">
+                  {ADDRESS_MG_LINE1}
+                  <br />
+                  {ADDRESS_MG_LINE2}
+                </span>
               </span>
             </li>
             <li className="pt-2">
@@ -99,8 +127,8 @@ export function Contact() {
 
           <div className="min-h-[380px] overflow-hidden rounded-md border border-border">
             <iframe
-              title="Mapa - Rua Padre Caramuru, nº 875, Cambuí-MG"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-46.0700%2C-22.6180%2C-46.0500%2C-22.6020&layer=mapnik&marker=-22.6100%2C-46.0600"
+              title="Mapa - Rua Paulino Camasmie, nº 61, Jardim Paulista, São Paulo/SP"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6720%2C-23.5760%2C-46.6600%2C-23.5680&layer=mapnik&marker=-23.5720%2C-46.6660"
               className="h-full min-h-[380px] w-full"
               loading="lazy"
             />

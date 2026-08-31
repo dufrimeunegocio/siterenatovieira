@@ -1,5 +1,11 @@
 import { MapPin, Video } from "lucide-react";
-import { ADDRESS, WHATSAPP_URL } from "@/data/site";
+import {
+  ADDRESS_MG_LINE1,
+  ADDRESS_MG_LINE2,
+  ADDRESS_SP_LINE1,
+  ADDRESS_SP_LINE2,
+  WHATSAPP_URL,
+} from "@/data/site";
 
 export function Modalities() {
   return (
@@ -14,31 +20,44 @@ export function Modalities() {
           <article className="rounded-md border border-primary-foreground/15 bg-primary-foreground/5 p-8">
             <p className="flex items-center gap-2 text-[0.7rem] font-semibold tracking-[0.16em] text-accent uppercase">
               <MapPin className="size-4" strokeWidth={1.8} />
-              Presencial
+              Atendimento presencial
             </p>
             <h3 className="mt-5 font-sans text-xl font-semibold text-primary-foreground">
-              Cambuí — MG
-            </h3>
-            <p className="mt-3 text-sm text-primary-foreground/75">{ADDRESS}</p>
-            <hr className="my-6 border-primary-foreground/15" />
-            <h4 className="font-sans text-base font-semibold text-primary-foreground">
               São Paulo — SP
-            </h4>
+            </h3>
             <p className="mt-3 text-sm text-primary-foreground/75">
-              O atendimento presencial acontece em Cambuí-MG e São Paulo-SP.
+              {ADDRESS_SP_LINE1}
+              <br />
+              {ADDRESS_SP_LINE2}
             </p>
           </article>
 
           <article className="rounded-md border border-primary-foreground/15 bg-primary-foreground/5 p-8">
             <p className="flex items-center gap-2 text-[0.7rem] font-semibold tracking-[0.16em] text-accent uppercase">
+              <MapPin className="size-4" strokeWidth={1.8} />
+              Atendimento presencial
+            </p>
+            <h3 className="mt-5 font-sans text-xl font-semibold text-primary-foreground">
+              Cambuí — MG
+            </h3>
+            <p className="mt-3 text-sm text-primary-foreground/75">
+              {ADDRESS_MG_LINE1}
+              <br />
+              {ADDRESS_MG_LINE2}
+            </p>
+          </article>
+
+          <article className="rounded-md border border-primary-foreground/15 bg-primary-foreground/5 p-8 lg:col-span-2">
+            <p className="flex items-center gap-2 text-[0.7rem] font-semibold tracking-[0.16em] text-accent uppercase">
               <Video className="size-4" strokeWidth={1.8} />
-              On-line
+              Atendimento on-line
             </p>
             <h3 className="mt-5 font-sans text-xl font-semibold text-primary-foreground">
               Atendimento à distância
             </h3>
-            <p className="mt-3 text-sm text-primary-foreground/75">
-              Atendimento psicológico on-line para pessoas que buscam acompanhamento à distância.
+            <p className="mt-3 max-w-2xl text-sm text-primary-foreground/75">
+              Atendimento psicológico on-line para pacientes de diferentes localidades, com a mesma
+              qualidade e cuidado do acompanhamento profissional.
             </p>
           </article>
         </div>
